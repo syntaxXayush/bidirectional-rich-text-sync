@@ -1,4 +1,4 @@
-import { useCallback, useState, useRef, useEffect } from 'react';
+import { useCallback, useState, useRef } from 'react';
 import type { EventLogEntry } from '../../shared/types';
 import { downloadJson } from '../../shared/exportUtils';
 import { ChevronRight, Download, Trash2, Filter, Radio, Cpu } from 'lucide-react';
